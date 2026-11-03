@@ -1,0 +1,17 @@
+{
+  "apk": "Lingxian-Android.apk",
+  "bytes": 41813,
+  "sha256": "065818EAE22CFCEA71711EAB35696A8627E7C92B24386E5B07D8DB606E062143",
+  "min_android": "8.0 / API26",
+  "target_api": 35,
+  "java_compiled": true,
+  "dex_built": true,
+  "apk_v2_v3_signature_verified": true,
+  "offline_assets_bundled": true,
+  "native_android_ble": true,
+  "native_android_wifi_tcp": true,
+  "physical_wifi_tested": false,
+  "installed_on_phone": false,
+  "physical_ble_tested": false,
+  "signing": "local demonstration certificate; not Play Store release"
+}

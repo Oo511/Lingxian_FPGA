@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f5f4ef"><meta name="description" content="灵弦曲谱、脱机LED指引与键位设置"><title>灵弦 · 练习室</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="#" aria-label="灵弦主页"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7 24V8m6 20V4m6 20V8m6 12v-8"/></svg><span>灵弦<small>LINGXIAN</small></span></a><button id="connection" class="connection"><i></i><span>连接乐器</span></button></header>
+<main>
+ <aside id="preview-banner" class="preview-banner" hidden>预览模式 · 使用模拟设备，不连接或写入硬件<button id="exit-preview">退出</button></aside>
+ <section id="page-score" class="page">
+  <div class="eyebrow">YOUR DAILY PRACTICE</div><h1>让每一拍，<br><span>都有方向。</span></h1><p class="lead">选一首曲，跟随灯光，按自己的节奏成长。</p>
+  <div class="section-title"><h2>今日曲谱</h2><button id="open-import" class="text-button">导入曲谱 <span>↗</span></button></div>
+  <div id="scores" class="score-list"></div>
+  <div class="practice card"><div class="practice-top"><div><div class="eyebrow">NOW SELECTED</div><h2 id="selected-title"></h2></div><span id="step-count" class="tag"></span></div>
+   <div class="tempo-row"><label for="tempo">练习速度<small>BPM</small></label><div class="tempo-control"><button id="tempo-minus" aria-label="减慢速度">−</button><input id="tempo" type="number" min="40" max="240" step="1" inputmode="numeric" aria-label="每分钟节拍"><button id="tempo-plus" aria-label="加快速度">＋</button></div></div>
+   <div id="notes" class="note-strip" aria-label="曲谱预览"></div>
+   <button id="save" class="primary" disabled><span>保存到乐器</span><span>↗</span></button><div class="guide-actions"><button id="start" disabled>▷ 播放单曲</button><button id="stop" disabled>□ 停止</button><button id="read" disabled>读取板上曲谱</button></div>
+   <p class="hint">Tang 选乐器页可调 GLI、VIB、LED 和 T32；此处保存的曲谱用于单曲试听，多轨录制在 STUDIO 操作。</p>
+  </div>
+  <div class="offline-note"><span>↳</span><div><strong>曲谱在乐器里，练习不必一直在线。</strong><p>单曲与24键映射可保存；四轨工程在Tang运行内存中保留。</p></div></div>
+ </section>
+ <section id="page-map" class="page" hidden><div class="eyebrow">MAKE IT YOURS</div><h1>你的键位，<br><span>你的习惯。</span></h1><p class="lead">为钢琴与风琴设置输出音高；吉他仍保留弦与品位。</p><div class="card"><div class="section-title"><h2>24 键映射</h2><button id="reset-map" class="text-button">恢复默认</button></div><p class="hint">左侧是屏幕上的原始键位，右侧是它将发出的音。修改后，回到曲谱页一起保存到乐器。</p><div id="mapping" class="mapping-grid"></div></div></section>
+ <section id="page-device" class="page" hidden><div class="eyebrow">STAY CONNECTED</div><h1>连接之后，<br><span>自由练习。</span></h1><p class="lead">通过板载 WiFi，将曲谱和键位设置交给乐器。</p><div class="card device-card"><span class="device-symbol">⌁</span><h2 id="device-name">尚未连接乐器</h2><p id="board-state">先连接 Lingxian-30 热点，再点击下方按钮。</p><button id="connect-main" class="primary">连接板载 WiFi</button><div id="nearby" class="nearby"></div><div class="guide-actions"><button id="refresh" disabled>刷新状态</button><button id="disconnect" disabled>断开连接</button></div></div><button id="try-demo" class="secondary">先预览，不连接硬件 →</button><div class="info-block"><strong>连接小提示</strong><p id="platform-help"></p><p>热点：Lingxian-30 · 密码：Lingxian30。乐器热点不提供互联网；在线曲库可先在日常网络下载，或从手机文件导入。</p></div></section>
+ <div class="status-box" role="status" aria-live="polite"><span id="status-dot"></span><p id="status">内置曲谱已就绪。连接乐器，或先进入预览。</p></div>
+</main>
+<nav class="bottom-nav" aria-label="主要功能"><button data-page="score" class="active"><span>♫</span>曲谱</button><button data-page="map"><span>▥</span>键位</button><button data-page="device"><span>⌁</span>设备</button></nav>
+<dialog id="import-dialog"><form method="dialog"><div class="section-title"><h2>获取新曲谱</h2><button class="close" aria-label="关闭">×</button></div></form><p class="hint">导入本项目格式的 JSON 曲库，或从 HTTPS 地址获取。</p><label class="file-button" for="catalog-file">从手机文件导入 JSON <span>＋</span></label><input id="catalog-file" type="file" accept=".json,application/json" hidden><label class="field-label" for="catalog-url">在线曲谱库地址</label><input id="catalog-url" type="url" placeholder="https://…/catalog.json" autocomplete="off"><button id="fetch-catalog" class="primary">下载曲谱库</button><p id="import-error" class="error" role="alert"></p></dialog>
+<script src="app.js" defer></script>
+</body></html>

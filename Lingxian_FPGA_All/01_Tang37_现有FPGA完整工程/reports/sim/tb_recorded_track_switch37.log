@@ -1,0 +1,3 @@
+PASS eight recorded-track instrument changes close picker directly; all 512 RAM words and track metadata retained; next empty track selectable
+PASS recorded event RAM and playback preserved across touch reset; STOP responds after recovery
+PASS Tang touch track/card/REC/return/mute/STOP + real DRUM3/piano UART PCM; retained project and non-destructive App single-score audition

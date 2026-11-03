@@ -1,0 +1,29 @@
+# Local publishing workspace
+.publish-work/
+
+# Signing keys and local credentials
+**/.signing/
+*.jks
+*.keystore
+*.p12
+*.pfx
+.env
+.env.*
+
+# Development caches
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
+.DS_Store
+Thumbs.db
+
+# Generated simulation outputs (published reports are kept)
+*.vvp
+*.vcd
+*.fst
+**/sim/results/
+
+# New local build outputs
+*.apk.idsig
+.publish-work-*/

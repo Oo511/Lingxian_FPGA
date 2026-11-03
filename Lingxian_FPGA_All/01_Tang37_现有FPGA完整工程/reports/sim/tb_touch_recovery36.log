@@ -1,0 +1,1 @@
+PASS first-frame guard, 12 track/card/STOP actions during redraw, stale-held release, transient filtering, repeated isolated touch reset and I2C release

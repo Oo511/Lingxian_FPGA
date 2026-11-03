@@ -1,0 +1,530 @@
+{
+  "build.ps1": {
+    "bytes": 2057,
+    "sha256": "10687a673c7cd5c7079078f4a634e789550742f56e4be7dd88aa18c32f86333b"
+  },
+  "download/music_perform.fs": {
+    "bytes": 20777596,
+    "sha256": "f3bee87481df9fdc3a0817495ec8910e9808621362d03b8908a2809eaadf7ec9"
+  },
+  "FPGA/impl/pnr/screen_board.fs": {
+    "bytes": 20777596,
+    "sha256": "f3bee87481df9fdc3a0817495ec8910e9808621362d03b8908a2809eaadf7ec9"
+  },
+  "FPGA/impl/screen_board_process_config.json": {
+    "bytes": 2732,
+    "sha256": "10f929d1b1db69e1f11121dabc7a756e2b718becbd2367beb0237299efe02b91"
+  },
+  "FPGA/screen_board.gprj": {
+    "bytes": 3004,
+    "sha256": "5605871af6ba1896f43c6287db19c56fb473163c6d17f32eec121b59193600f5"
+  },
+  "FPGA/sim/analyze.py": {
+    "bytes": 1178,
+    "sha256": "515c0024d0afbf0d3026bd46ceb2472115ced188346e8f605e7c703abe3d1308"
+  },
+  "FPGA/sim/analyze_music.py": {
+    "bytes": 2176,
+    "sha256": "ec753ed62eb25d30378a9dddef6cd8923eb90c4af4a2c7c8ec67cc3ae338a0e5"
+  },
+  "FPGA/sim/run.ps1": {
+    "bytes": 2452,
+    "sha256": "a8cf0157f47faf92abeebdc948908e12184c65ba1a4f7550200c6331d9536f30"
+  },
+  "FPGA/sim/smart_packets.hex": {
+    "bytes": 256,
+    "sha256": "b97baf0850f720baeb7f2368e1f781dec446e0cad8d70977843b0bc4a7985b92"
+  },
+  "FPGA/sim/tb_allocator_stress.v": {
+    "bytes": 1616,
+    "sha256": "97d2f54fb4c63cb09748edfb671e87755e2ec79a0c42c9aba244e5799b547af7"
+  },
+  "FPGA/sim/tb_auto32.v": {
+    "bytes": 4037,
+    "sha256": "f38a372f96013da31517142206af816d860f197829f68f34cb8e0930896ae166"
+  },
+  "FPGA/sim/tb_contest.v": {
+    "bytes": 1233,
+    "sha256": "2a8fbc724d637cfa866e54c01e9d70df38be9be47b7132054540950ab7d2c6a4"
+  },
+  "FPGA/sim/tb_demo_controls34.v": {
+    "bytes": 1919,
+    "sha256": "efc47614cd9637f0193139cbcf60e0395cd626adbee21076b9649e88643f428f"
+  },
+  "FPGA/sim/tb_effect_audition.v": {
+    "bytes": 2179,
+    "sha256": "06f638353a7559e1e2b29a7d941e967250f2d993cf278e00eb353602ad596d5e"
+  },
+  "FPGA/sim/tb_effect_switch.v": {
+    "bytes": 1407,
+    "sha256": "b6eb7f0400770e8d943656d24092c8960fa0adb7d13becd6d8a6bffc75b2dc1a"
+  },
+  "FPGA/sim/tb_effects.v": {
+    "bytes": 1241,
+    "sha256": "6cbdf3d9bcf741986d0c2b02657f2a7bbf5b67b8c3cb10192be37062317e2fa7"
+  },
+  "FPGA/sim/tb_encoder_display35.v": {
+    "bytes": 1743,
+    "sha256": "a1c7dd3c6f7c4264dce00c54321b09bbc6e8edb6c3d98be79bf6eeb3291a52d5"
+  },
+  "FPGA/sim/tb_encoder_studio35.v": {
+    "bytes": 2114,
+    "sha256": "e53c1215e2a8244f8e177913551bf32585a9f464d0c936f895951b821d97e882"
+  },
+  "FPGA/sim/tb_encoder_volume31.v": {
+    "bytes": 2666,
+    "sha256": "17b3cff677cca203714f56401faa832274bd2ec020a19fb2bde1afa93bc50770"
+  },
+  "FPGA/sim/tb_expression34.v": {
+    "bytes": 2274,
+    "sha256": "dbadad395c86da0c9b83370a0e34ec3ee7ff9ae359012fb1165274b873a9b111"
+  },
+  "FPGA/sim/tb_fx_button.v": {
+    "bytes": 2064,
+    "sha256": "51843d1972d79c7ea08d3f6b18abd6a22204045f18d3f5573eb709c873ebd9f7"
+  },
+  "FPGA/sim/tb_fx_frames.v": {
+    "bytes": 1144,
+    "sha256": "6455b744644c84af6a0551ad40fd8d3a6d2d3a9bcdc86f7b587709c5c682e1e2"
+  },
+  "FPGA/sim/tb_guide.v": {
+    "bytes": 797,
+    "sha256": "96edb8b61734be6b7abe0937f2a9b932b8dc82405fc7bd0fc35a40792fbb4d48"
+  },
+  "FPGA/sim/tb_guide_full.v": {
+    "bytes": 2025,
+    "sha256": "90e104bf032c07b610244ae0f3786a4c14c320ee7a9db2b62ee2e7dc7ce11705"
+  },
+  "FPGA/sim/tb_guide_instrument.v": {
+    "bytes": 1223,
+    "sha256": "34281ac0f5143f5af9f36f30fd9be69c31b942fdefb01ecefb8a98bfcb62ce3a"
+  },
+  "FPGA/sim/tb_guitar_pitch.v": {
+    "bytes": 2321,
+    "sha256": "1f180bc52f1b1e8eb5baa54ffdd29e442e6f81167f1b4bb98699a82f5ce14235"
+  },
+  "FPGA/sim/tb_i2s.v": {
+    "bytes": 1247,
+    "sha256": "35b3a2c0fb5d90daa7d92eeb2a2063c8a2450c14ec84cc215f10ea34b6093118"
+  },
+  "FPGA/sim/tb_instrument_compat.v": {
+    "bytes": 1214,
+    "sha256": "7300b1ada922ac3e18a7be1e4e64bbfd5ed0b5a86e040f487ea2ceec339529ca"
+  },
+  "FPGA/sim/tb_instruments.v": {
+    "bytes": 877,
+    "sha256": "34d7436c4bb396554b029e3326628cdbae2659896d3f42ef58a4cf00a59b2203"
+  },
+  "FPGA/sim/tb_latency.v": {
+    "bytes": 1977,
+    "sha256": "0d3daea91a369cb1b2d343db370860f58103240594c2288a850083486a257dea"
+  },
+  "FPGA/sim/tb_latency_dac27.v": {
+    "bytes": 4850,
+    "sha256": "22ff413cbe1dabbd63f4d8a236d38e41a5045806e86558496d6c51d23b66389a"
+  },
+  "FPGA/sim/tb_led_all_voices.v": {
+    "bytes": 660,
+    "sha256": "b1734b6b59df5c8b3267dbc2064122444a4202a9ad7f02c1c0bd705fc50ec2a2"
+  },
+  "FPGA/sim/tb_link.v": {
+    "bytes": 1691,
+    "sha256": "5b39c4037a136b44cac9028493155b9d58159f0553f2936ca8e8f49bce2dfba0"
+  },
+  "FPGA/sim/tb_master_dac31.v": {
+    "bytes": 1445,
+    "sha256": "4f41889c9efa9fa276455ed9b765168f398b645a3134276c81eea9535f6832c7"
+  },
+  "FPGA/sim/tb_master_volume31.v": {
+    "bytes": 1924,
+    "sha256": "acbeda60efca1aa7d0bd3651c3bea503eab3988e380cf162389ec48f5885f7bb"
+  },
+  "FPGA/sim/tb_modulation.v": {
+    "bytes": 2393,
+    "sha256": "e2e6edb7a9dabed6fb294c7117818cc16f58b535eade9d3e4960cd06cac2b826"
+  },
+  "FPGA/sim/tb_music.v": {
+    "bytes": 1733,
+    "sha256": "1b54568da627a967bc060c22e732bd8de83e4d5a886647e83f89d72a79362d51"
+  },
+  "FPGA/sim/tb_organ_chord.v": {
+    "bytes": 1422,
+    "sha256": "293700fe300ef42cef3a5a807195f87de7f45811880562c0bc74aabf1734e7e8"
+  },
+  "FPGA/sim/tb_organ_disconnect.v": {
+    "bytes": 1519,
+    "sha256": "93865007a24cdd49a208e76ae32bc12e4a7b085d36c28eb00a3aacec83e7aea6"
+  },
+  "FPGA/sim/tb_organ_glide.v": {
+    "bytes": 1964,
+    "sha256": "433d31c9c5f5b3b77a954744ec7d735900c81ae497d2b8fb8f06cdef62e58672"
+  },
+  "FPGA/sim/tb_organ_keys.v": {
+    "bytes": 1134,
+    "sha256": "76a1acb07ffd85ebfa660065462b9c3040735d16aa25af68db69b91a7de52326"
+  },
+  "FPGA/sim/tb_organ_link.v": {
+    "bytes": 2188,
+    "sha256": "0f2db533f9f1f2f4921ec3a34aff7d827dad1018be893b367bb187ff1fedcf9a"
+  },
+  "FPGA/sim/tb_organ_voice.v": {
+    "bytes": 1462,
+    "sha256": "4420c556e230662c51736801060d629a323ca69b0388a3bd526258175b9baadb"
+  },
+  "FPGA/sim/tb_recorded_track_switch37.v": {
+    "bytes": 5328,
+    "sha256": "29cb17fac1b701e8371548b3432051ce48b6de6e0a5336c510b1d17956052a65"
+  },
+  "FPGA/sim/tb_reverb_silence.v": {
+    "bytes": 1155,
+    "sha256": "9a0737ea91242d417805907fa0a11a082e79bdb40ee874b294b1978054e4d14f"
+  },
+  "FPGA/sim/tb_score_auto.v": {
+    "bytes": 2323,
+    "sha256": "5938ff69ecdc120c07d45ad6f568033690aa87636d0c7ff52c2f6605ae0b7884"
+  },
+  "FPGA/sim/tb_selector.v": {
+    "bytes": 1024,
+    "sha256": "46235d0fcf808340c7027e67ccf015b2894c67d9dfd75737218dc2db1c44730c"
+  },
+  "FPGA/sim/tb_smart29.v": {
+    "bytes": 2943,
+    "sha256": "498c3a4613c1340e7f7fe82934ceeef5591a775eba6dca38a1ccf09f91a62082"
+  },
+  "FPGA/sim/tb_smart_limits.v": {
+    "bytes": 2404,
+    "sha256": "a21492a8c45efdce9b0f53737dee03b6509826300565e96e8c96ca15c1b399a8"
+  },
+  "FPGA/sim/tb_smart_tx.v": {
+    "bytes": 1437,
+    "sha256": "c230e5ff8a27b69c8270b35b0a96fda3b426580ac99229afca17f4cd64e537cd"
+  },
+  "FPGA/sim/tb_spectrum_controls.v": {
+    "bytes": 1397,
+    "sha256": "e85169db03f3c5862c2eb8b0824890daba70d1ec92141fe1ec6ca3be9262cbc7"
+  },
+  "FPGA/sim/tb_status_immediate.v": {
+    "bytes": 1720,
+    "sha256": "19f0af447ac3935aeb8e75e7439b620e8e7c1814c0a9c285bffef04adb8445b3"
+  },
+  "FPGA/sim/tb_studio_display.v": {
+    "bytes": 1361,
+    "sha256": "38a7b07e8b59bf76b410b75fd64f49acaa0785d6f985f64a9dc139f554c422e2"
+  },
+  "FPGA/sim/tb_studio_drums.v": {
+    "bytes": 1490,
+    "sha256": "cce127ecb8467a15229c5add2edf27fb9cc3cdc0f3af31b07c0dd8a8b8705cbe"
+  },
+  "FPGA/sim/tb_studio_loop.v": {
+    "bytes": 4155,
+    "sha256": "33786172a9b03e3d5f15322d7f9874b0357e9a7f5bab1545c2756004d0ebb79b"
+  },
+  "FPGA/sim/tb_studio_pixels.v": {
+    "bytes": 1078,
+    "sha256": "cd8cc06536d77cf3ef567268c6689bcbfcfc892231736048af76026604a99cec"
+  },
+  "FPGA/sim/tb_studio_synth.v": {
+    "bytes": 2137,
+    "sha256": "ff9f47e28bd1acb9a3551ec1f14351f4be674cdfb3b937b946a8d11ecc2dc524"
+  },
+  "FPGA/sim/tb_studio_top.v": {
+    "bytes": 3425,
+    "sha256": "400780291e08876904407bbe9511fe172857ac3ebc223553f47bacece9987d04"
+  },
+  "FPGA/sim/tb_system.v": {
+    "bytes": 3388,
+    "sha256": "9c6e2ec30137ae22df8969873746a8d4c63a72078a6e515f4e6aefe674d7dd6f"
+  },
+  "FPGA/sim/tb_tang_mic.v": {
+    "bytes": 2554,
+    "sha256": "1e4b9309889c9c9d2dfd2dc3f2a9634faaf01fac84d4943b237b76b4d39d9cfe"
+  },
+  "FPGA/sim/tb_tang_mic_unit.v": {
+    "bytes": 1731,
+    "sha256": "89e67d985e5f2510fd58708533cba7dbf2782aff1f4ab5bac9fb536f6389e6a4"
+  },
+  "FPGA/sim/tb_test32_demo.v": {
+    "bytes": 1395,
+    "sha256": "bac3738cf41ae3682a3b8dab39513af6210d105d36f30762faae11a8e3597edc"
+  },
+  "FPGA/sim/tb_touch_bounds.v": {
+    "bytes": 1391,
+    "sha256": "ad55090e91b0a5a709ea97d493ceae8d83809d59b87b9a7182675f02552b3370"
+  },
+  "FPGA/sim/tb_touch_recording36.v": {
+    "bytes": 4367,
+    "sha256": "c2fb843bfd8847a50ab0f52165cac5ed0543696d701ba40f6e605aa42a02b0b2"
+  },
+  "FPGA/sim/tb_touch_recovery36.v": {
+    "bytes": 3026,
+    "sha256": "2c5950f6e0abe7b89f7a626f027b0e9258589c3c6dd8137d59266b06f11763de"
+  },
+  "FPGA/sim/tb_triple_frames.v": {
+    "bytes": 1143,
+    "sha256": "3694d30b9b77d57711b4d2928ca6a0b0b7f2f433018556633624123fd89891c1"
+  },
+  "FPGA/sim/tb_tx.v": {
+    "bytes": 887,
+    "sha256": "78aefc9d32612d0c5b353dfcf1476261258a71d4f22f9f2f1613d21ad5e72ba3"
+  },
+  "FPGA/sim/tb_vibrato_audition.v": {
+    "bytes": 1619,
+    "sha256": "6493f270464fbaf1d2b2b701dc232236f57af7121a413cc2ce68ba67a3447303"
+  },
+  "FPGA/sim/tb_vibrato_range.v": {
+    "bytes": 1686,
+    "sha256": "a777919521bc2652e3a69e99d1b098c3d374fd1f402070eadf398ef567920e15"
+  },
+  "FPGA/sim/voice_ex_baseline25.v": {
+    "bytes": 2763,
+    "sha256": "f6fefd388a8dc449c3a82224167583c10148e626a896409b61196c2b4fd4e3ea"
+  },
+  "FPGA/sim/voice_ex_baseline26.v": {
+    "bytes": 2773,
+    "sha256": "ad508e4aa8021600c81f7d6331bcd8d1608d533654f53da9f44ed38d975ad75c"
+  },
+  "FPGA/src/adsr_envelope.v": {
+    "bytes": 2255,
+    "sha256": "a91033594cd9b1efcc3c458579d1c7ee01de3640e832070f586ab340a1a4e293"
+  },
+  "FPGA/src/audio_fx.v": {
+    "bytes": 4632,
+    "sha256": "c2263a1b20deaf498ad379fb2518e8b9137b229737e3f2d3128b0e06c2564139"
+  },
+  "FPGA/src/button_debounce.v": {
+    "bytes": 968,
+    "sha256": "14ee877318a04822b49f3fa772c88f2add1bd944a63e1b6405ee6f01f8943098"
+  },
+  "FPGA/src/chorus_fx.v": {
+    "bytes": 1272,
+    "sha256": "a1185be20e424da28b6f9adb1992b7652f4ef937a54490e545012c0480b73467"
+  },
+  "FPGA/src/contest_spectrum_top.v": {
+    "bytes": 803,
+    "sha256": "38f57db152491b16e83021099cc786e64ad54d16a55b0c02f96cf2ef5a1ffbc1"
+  },
+  "FPGA/src/encoder_volume.v": {
+    "bytes": 2547,
+    "sha256": "e17792bdc0b1fc957380ceb491b0d021ade3e2399e62d874f412eac409036efe"
+  },
+  "FPGA/src/envelope_ex.v": {
+    "bytes": 1814,
+    "sha256": "986e040cca91feb1ec864b13e1f0552977a1ab75ae867c8be408eb4053f02777"
+  },
+  "FPGA/src/ft6x36_reader.v": {
+    "bytes": 3667,
+    "sha256": "593c3f3011c173bd02d29127a28a76af09c8b8af2c1723283e65bb87e6973b48"
+  },
+  "FPGA/src/i2s_tx.v": {
+    "bytes": 1037,
+    "sha256": "85d1c6978b2cf6304e4b5f53bdc9470d0eeacf0fda65c67c59bd0c7ca29d6c82"
+  },
+  "FPGA/src/ili9341_piano.v": {
+    "bytes": 9508,
+    "sha256": "1245772e2eeed285c2a7352a20965100bab7314238ea65b77187de936709da5a"
+  },
+  "FPGA/src/instrument_voice.v": {
+    "bytes": 1928,
+    "sha256": "4ea3581df0ede051400d830b7cf72591fb18a193f9619022dab03b33d34b8351"
+  },
+  "FPGA/src/key_matrix_6x4.v": {
+    "bytes": 1853,
+    "sha256": "72b2040e84e2dea9c79616ac975854fab33cf5bbcf4903dabdebb8a1552d1a22"
+  },
+  "FPGA/src/keyboard_audio_logic.v": {
+    "bytes": 2766,
+    "sha256": "72c2ee4dd5b0dc7766cd24043fa703c6d03d133ff5220560f4c9ecfb75d30264"
+  },
+  "FPGA/src/lcd_spi_byte.v": {
+    "bytes": 763,
+    "sha256": "782e00ff68831d7ca3e880238d90599996c155b8e64e96a0eb92a6b6d3dd573e"
+  },
+  "FPGA/src/link_uart.v": {
+    "bytes": 3566,
+    "sha256": "afe1e89a380664d99c4d656324a79b29499698ae382765884cb6a5acd58e231a"
+  },
+  "FPGA/src/master_volume.v": {
+    "bytes": 4955,
+    "sha256": "d51e7cd844ed594afdb04f818d1be719b7cf18ad6b9b997fb6a5259188ad8f46"
+  },
+  "FPGA/src/mcp3008_scan16.v": {
+    "bytes": 2145,
+    "sha256": "00c8d9bb6fb351fdac5dccab1df318633661d5d0b50aa12f447fe7601fb0be0c"
+  },
+  "FPGA/src/mix4_saturate.v": {
+    "bytes": 752,
+    "sha256": "613acf155c5fd1bcac02b3f5828f0b9311cb354c1143468717ddea8ab3c9b863"
+  },
+  "FPGA/src/note_phase_step.v": {
+    "bytes": 7721,
+    "sha256": "ecbc01186ffde369bef7e300b7a8a8df273a13835186d38b2435d748a3fe7d2c"
+  },
+  "FPGA/src/performance_led.v": {
+    "bytes": 1716,
+    "sha256": "8cc9122b018505fcfe49ad9d78bc9d82b3fa728c37c72e378ff75ff4d98a6d65"
+  },
+  "FPGA/src/piano_geometry.v": {
+    "bytes": 707,
+    "sha256": "9656e1a8591c31dce21863c12468c2aa08168953009bbe107415720dc8e8554f"
+  },
+  "FPGA/src/poly32_engine.v": {
+    "bytes": 5897,
+    "sha256": "8ed7b3d7fac2ec25411936409b0fb9328418af0f2d10c5092fda3348ce68cae5"
+  },
+  "FPGA/src/poly4_core.v": {
+    "bytes": 1345,
+    "sha256": "897becb6251cd491512a6e483806fd55fb6b2367dc276d5d1bd7c356cf5a1d7e"
+  },
+  "FPGA/src/pt8211_tx.v": {
+    "bytes": 1673,
+    "sha256": "fc3a6d0721fbb5da31e0ef7dc3867bb6c0bf854dc74ed4520641a8b62b356c2f"
+  },
+  "FPGA/src/screen_board.cst": {
+    "bytes": 3204,
+    "sha256": "813772bfb0516b474d1f77b66295049caa65dfab668628fba191dd0283d388e6"
+  },
+  "FPGA/src/screen_board_top.v": {
+    "bytes": 1084,
+    "sha256": "254af9d71686699c3e45e947b05182178915ffd53a6846fd71c4c1ff705ce5a1"
+  },
+  "FPGA/src/sine_lut.v": {
+    "bytes": 10489,
+    "sha256": "3f839ada1e21c87969c43f185069a7bdb5ecdc7a53e3f7c36d260b979d659a09"
+  },
+  "FPGA/src/smart_guide.v": {
+    "bytes": 4586,
+    "sha256": "761fa29c6c1268493b538a7e1445be805fc2fe487a909749f274d77cbe0b80fe"
+  },
+  "FPGA/src/smart_uart.v": {
+    "bytes": 4600,
+    "sha256": "7d4d60c41c4050a9d7366b3fe76e3ff0c670e55349a029ad83695fa2b8826233"
+  },
+  "FPGA/src/studio_board_top.v": {
+    "bytes": 9642,
+    "sha256": "4bb0b0797c10176c6daf4612b1730f9df8635b73a8e0686c8e6d297eb88ce121"
+  },
+  "FPGA/src/studio_click.v": {
+    "bytes": 528,
+    "sha256": "cfba760a9172e226f9e900e6d12999fdb678b282e6818d26b85f3ad7f6bcd556"
+  },
+  "FPGA/src/studio_display.v": {
+    "bytes": 7890,
+    "sha256": "5cd9154f8bfd8fa0470187dd757ae61e3bcdeb188a226df9c1aeb45aeed13980"
+  },
+  "FPGA/src/studio_drums.v": {
+    "bytes": 4475,
+    "sha256": "463becc33b3f7935f296c447c39d7f1e13a0eac17e161b1ce994946b8f99a56d"
+  },
+  "FPGA/src/studio_loop.v": {
+    "bytes": 6833,
+    "sha256": "c549dffb453bf59bf0fac9a103457f02daa211601c0d299b57f6cd230c50e8b8"
+  },
+  "FPGA/src/studio_pixels.v": {
+    "bytes": 12635,
+    "sha256": "3b9d1f6be1bdf112d5f45a2d463027a3549139936f12d71ab77f815d6645ff36"
+  },
+  "FPGA/src/studio_synth.v": {
+    "bytes": 6769,
+    "sha256": "db975a515ded1705c07140c1669c2bfda6587ba79ac1e6165f56132daa3da1fb"
+  },
+  "FPGA/src/synth_voice.v": {
+    "bytes": 1929,
+    "sha256": "1aa75bc79a73db5935fe288ca60473f6d841d7d7e3e72fb56da95ed77be7cca0"
+  },
+  "FPGA/src/tang_mic_gate.v": {
+    "bytes": 1570,
+    "sha256": "3a494759ba236500b9b2b3717e62f0a23e4e951002c3d66733ad36b13f992475"
+  },
+  "FPGA/src/timing.sdc": {
+    "bytes": 64,
+    "sha256": "72d2db8f621a61c41e06802f8c8aa4cd87fd1be29afd01811c48bb2c5d18744b"
+  },
+  "FPGA/src/touch_controls.v": {
+    "bytes": 1290,
+    "sha256": "4e8713617e35bdce9b3841948fb8405750421d0b93ce11cebb1e1ca3e2191106"
+  },
+  "FPGA/src/touch_piano_top.v": {
+    "bytes": 7486,
+    "sha256": "16511b292c11c53f25482e0c2c991eabfdfa163ef9a5cb0b067a0e64ee748489"
+  },
+  "FPGA/src/voice_allocator4.v": {
+    "bytes": 1351,
+    "sha256": "9bd1ba651e76ee1c4d50442088dab946500c78bdff847d3243cd889ac0d500d2"
+  },
+  "FPGA/src/voice_ex.v": {
+    "bytes": 3491,
+    "sha256": "2e3c8ddbdecedd32737b8da563154ee2fc153eb80689565cfb4e92ab63f1e6de"
+  },
+  "README.md": {
+    "bytes": 1711,
+    "sha256": "f951b3666a94d1bd03164e4675504b810186c87c6e4899730c6521f747cc1075"
+  },
+  "reports/changes_from36.patch": {
+    "bytes": 1449,
+    "sha256": "35fa7508b80a794a7427ad7c135c2e3dc5e645c62168928404a33fef7f9b7fa0"
+  },
+  "reports/sim/tb_demo_controls34.log": {
+    "bytes": 121,
+    "sha256": "d0b0d26dbdf97dec8b59fb41c152001254ebd54d99cf973a2d2b93911c34e8d3"
+  },
+  "reports/sim/tb_encoder_studio35.log": {
+    "bytes": 160,
+    "sha256": "e32b2ba47e1bcc112dd487ffe87e6358cea12f64434ec0a14f712784a3e348ba"
+  },
+  "reports/sim/tb_recorded_track_switch37.log": {
+    "bytes": 382,
+    "sha256": "2077ca1d1e348e1d91054a3920ec0ccadddde76d708e2fe4e6c5258c10c2292a"
+  },
+  "reports/sim/tb_studio_loop.log": {
+    "bytes": 175,
+    "sha256": "5795b78759c20c076c393f8a61d8d42e80134e371907e2ef72c65cc2da0d5371"
+  },
+  "reports/sim/tb_studio_top.log": {
+    "bytes": 141,
+    "sha256": "bae4e19b729ae23b7a77d1a6b5805d69a49b8f9dc73f2aab2efbe6d00cc89fbd"
+  },
+  "reports/sim/tb_touch_recovery36.log": {
+    "bytes": 154,
+    "sha256": "2cc8ddaa08505349e45662a31fa2559af1edd487b39ef201e20dd6d8b271e67a"
+  },
+  "reports/synthesis.log": {
+    "bytes": 64548,
+    "sha256": "b1ae95f0ca23726fdf813b063bb4c701e2d3a10487ba89130212924e8203e581"
+  },
+  "reports/timing/screen_board.log": {
+    "bytes": 2485,
+    "sha256": "9b03c69d256a9dc90ef1c0f437e539641b227a6a31b20b64e17826789ef51141"
+  },
+  "reports/timing/screen_board.pin.html": {
+    "bytes": 108246,
+    "sha256": "9d508847553823939bb09a3032a4ce3563bf1b96d94f53d7dfc7bbcd27bc16eb"
+  },
+  "reports/timing/screen_board.power.html": {
+    "bytes": 16686,
+    "sha256": "9b91b04e6f11069d9cf1c1d1ad793a33d50da5662d0b99307a7f3b6de441e666"
+  },
+  "reports/timing/screen_board.rpt.html": {
+    "bytes": 114047,
+    "sha256": "f114070f0f464c7058406addbd922c19e810ef0c5087efedb041c7dff3e975c7"
+  },
+  "reports/timing/screen_board.rpt.txt": {
+    "bytes": 91494,
+    "sha256": "780cd725ac75481746a9b779ef83a7efb5cfd0270c3adfeea645429409589f54"
+  },
+  "reports/timing/screen_board.tr.html": {
+    "bytes": 359,
+    "sha256": "2c15185fa046b6c3dd87106d7d4bbafb687482c4a1bd68b5a7a133ae77e5232d"
+  },
+  "reports/timing/screen_board_tr_cata.html": {
+    "bytes": 7919,
+    "sha256": "e5924f5bcfc9c0cff2a109bd8253658a9dac7db184d22f01800de0c2b17a305e"
+  },
+  "reports/timing/screen_board_tr_content.html": {
+    "bytes": 609620,
+    "sha256": "03be1a8904b0f6029814780b68a85f93506cb3a709cf825ec7d12fa0df22c32a"
+  },
+  "reports/validation37.json": {
+    "bytes": 1122,
+    "sha256": "03701b2ce3363060c9c6c37c9f1eb780f92c795500a069a28609428cde14f269"
+  }
+}

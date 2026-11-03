@@ -1,0 +1,24 @@
+--- 36/studio_board_top.v
++++ 37/studio_board_top.v
+@@ -72,7 +72,7 @@
+      if(ty>=208)begin
+       if(tx<80)ui_command<=11;else if(tx<160)ui_command<=12;else if(tx<240)ui_command<=13;else ui_command<=14;
+      end else if(ty<33&&tx<80)picker<=0;
+-     else if(hit_card&&(!filled[selected]||card==track_instruments[selected*2+:2]))begin ui_command<=6;ui_instrument<=card;picker<=0;end
++     else if(hit_card)begin ui_command<=6;ui_instrument<=card;picker<=0;end
+     end else begin
+      if(ty>=208)begin
+       if(tx<80)ui_command<=1;else if(tx<160)ui_command<=2;else if(tx<240)ui_command<=3;else ui_command<=4;
+--- 36/studio_loop.v
++++ 37/studio_loop.v
+@@ -117,7 +117,9 @@
+     if(record_track==selected)recording<=0;if(armed_track==selected)armed<=0;
+    end
+    SELECT:begin selected<=command_track;recording<=0;armed<=0;preroll<=0;count_in<=0;rise_latch<=0;previous_live<=0;end
+-   INSTRUMENT:if(!filled[selected])begin instruments[selected*2+:2]<=command_instrument;rise_latch<=0;previous_live<=0;end
++   // Recorded events belong to the track, independently of its current sound.
++   // Changing the sound must not erase a take or silently reject the action.
++   INSTRUMENT:begin instruments[selected*2+:2]<=command_instrument;rise_latch<=0;previous_live<=0;end
+    FASTER:if(!playing&&tempo<5)tempo<=tempo+1'b1;
+    SLOWER:if(!playing&&tempo>0)tempo<=tempo-1'b1;
+    MUTE:muted[command_track]<=!muted[command_track];

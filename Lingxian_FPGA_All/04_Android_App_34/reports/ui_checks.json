@@ -1,0 +1,16 @@
+{
+  "browser": "installed Chrome / Playwright",
+  "responsive_widths": [
+    320,
+    390,
+    768
+  ],
+  "assertions": 18,
+  "console_page_errors": [],
+  "offline_single_html_opened": true,
+  "preview_mode_labelled": true,
+  "save_read_mapping_controls_import_https_and_local_storage": true,
+  "native_bridge_path_mocked": true,
+  "apk_installed_on_android": false,
+  "physical_wifi_tested": false
+}

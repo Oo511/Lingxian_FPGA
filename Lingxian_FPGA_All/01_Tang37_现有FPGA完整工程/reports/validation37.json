@@ -1,0 +1,28 @@
+{
+  "version": 37,
+  "base": 36,
+  "source_matches_compiled_snapshot": true,
+  "clock_MHz": 50,
+  "setup_violations": 0,
+  "hold_violations": 0,
+  "passed_tests": [
+    "tb_recorded_track_switch37",
+    "tb_touch_recovery36",
+    "tb_studio_top",
+    "tb_demo_controls34",
+    "tb_encoder_studio35",
+    "tb_studio_loop"
+  ],
+  "baseline36_regression": "recorded track card did not switch and return at first change",
+  "stm32_update_required": false,
+  "apk_update_required": false,
+  "physical_test_pending": true,
+  "changed_rtl": [
+    "studio_board_top.v",
+    "studio_loop.v"
+  ],
+  "recorded_track_sound_switch_allowed": true,
+  "recorded_event_ram_preserved": true,
+  "touch_recovery36_retained": true,
+  "frequency_report_excerpt": "Max Frequency Summary: NO. Clock Name Constraint Actual Fmax Logic Level Entity 1 sys_clk 50.000(MHz) 60.986(MHz) 3 TOP Total Negative Slack Summary: Clock Name Analysis Type Endpoints TNS Number of Endpoints sys_clk Setup 0.000 0 sys_clk Hold 0.000 0 Timing Details Path Slacks Table: Setup Paths Table Report Command:report_timing -setup -max_paths"
+}

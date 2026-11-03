@@ -1,0 +1,21 @@
+* text=auto
+*.md text eol=lf
+*.v text eol=lf
+*.py text eol=lf
+*.mjs text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.ps1 text eol=crlf
+*.fs binary linguist-generated=true linguist-detectable=false
+*.apk binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.mp4 binary
+# Preserve the archived source package byte for byte for its SHA256 manifests.
+Lingxian_FPGA_All/** -text
+**/reports/** linguist-generated=true
+**/dist/** linguist-generated=true
